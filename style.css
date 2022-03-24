@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gruppo&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gruppo&family=Russo+One&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(45deg, #2F5D62, #5E8B7E, #A7C4BC, #DFEEEA);
+    background-size: 300% 300%;
+    animation: colors 10s ease-in-out infinite;
+} 
+
+ @keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+ 
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 9px;
+}
+
+.logo-cabeçalho{
+    height: 65px;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item{
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+
+}
+
+.menu-item:hover{
+    background-color: rgba(1, 225, 233, 0.397);
+    border-radius: 5px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.5px solid rgb(5, 4, 4);
+    
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+.principal-titulo{
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgb(0, 0, 0);
+}
+
+.principal-subtitulo{
+    font-family: 'Gruppo', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.botao{
+    background-color: rgb(22, 107, 29);
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(36, 34, 34);
+    border-radius: 20px;
+    font-family: 'Sarala' sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.botao:hover{
+    background-color: rgb(125, 172, 129);
+    cursor: pointer;
+}
+
+.principal-imagem{
+    height: 430px;
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+.conteudo2-titulo{
+    border-top: 0.5px solid rgb(0, 0, 0);
+    padding-top: 45px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(0, 0, 0);   
+    margin-bottom: 16px;
+}
+
+.conteudo2-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: rgb(0, 0, 0);   
+  
+}
