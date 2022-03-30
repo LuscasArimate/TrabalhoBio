@@ -1,0 +1,164 @@
+/* CSS MAIN LANDING PAGE*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gruppo&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gruppo&family=Russo+One&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+   /*  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(15,13,52,1) 50%, rgba(4,6,52,1) 100%); */
+   
+    background: url(image/bg.png);
+
+
+    background-size: 300% 300%;
+    /* animation: colors 100s ease-in-out infinite;  */
+} 
+
+ @keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+ 
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 9px;
+}
+
+.logo-cabeçalho{
+    height: 65px;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item{
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+
+}
+
+.menu-item:hover{
+    background-color: rgba(1, 225, 233, 0.397);
+    border-radius: 5px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.5px solid rgb(5, 4, 4);
+    
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+.principal-titulo{
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgb(0, 0, 0);
+}
+
+.principal-subtitulo{
+    font-family: 'Gruppo', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.botao{
+    background-color: rgb(226, 23, 43);
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(36, 34, 34);
+    border-radius: 20px;
+    font-family: 'Sarala' sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin-left: 700px;
+    
+}
+
+.botao:hover{
+    background-color: rgb(172, 23, 38);
+    cursor: pointer;
+}
+
+.principal-imagem{
+    height: 650px;
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+.conteudo2-titulo{
+    border-top: 0.5px solid rgb(0, 0, 0);
+    padding-top: 45px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(0, 0, 0);   
+    margin-bottom: 16px;
+}
+
+.conteudo2-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(0, 0, 0);   
+  
+}
+
+#label{
+				color: #860B17;
+}
+
+
+
+
+
+
+
+
